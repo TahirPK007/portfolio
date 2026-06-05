@@ -1,7 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaWhatsapp,
+  FaMapMarkerAlt,
+} from "react-icons/fa";
 import { siteConfig, socials } from "@/lib/data";
 
 export default function Hero() {
@@ -100,6 +106,15 @@ export default function Hero() {
             className="text-gray-400 transition-colors hover:text-accent-light"
           >
             <FaLinkedin size={24} />
+          </a>
+          <a
+            href={socials.whatsapp}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp"
+            className="text-gray-400 transition-colors hover:text-accent-light"
+          >
+            <FaWhatsapp size={24} />
           </a>
           <a
             href={socials.email}

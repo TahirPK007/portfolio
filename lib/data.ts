@@ -27,7 +27,7 @@ export const siteConfig = {
     "I'm a frontend & mobile developer based in Pakistan, working with clients worldwide. I specialize in the React ecosystem — building responsive web apps with React JS and Next.js, and cross-platform mobile apps with React Native. I care about good UX, readable code, and shipping real products.",
   email: "tahir.mehmood9425@gmail.com",
   // Get a free endpoint at https://formspree.io and paste it here:
-  formspreeEndpoint: "https://formspree.io/f/YOUR_FORM_ID",
+  formspreeEndpoint: "https://formspree.io/f/xdavkbjy",
 };
 
 // ---------------------------------------------------------------------------
@@ -36,6 +36,7 @@ export const siteConfig = {
 export const socials = {
   github: "https://github.com/TahirPK007",
   linkedin: "https://www.linkedin.com/in/tahir-mehmood007/",
+  whatsapp: "https://wa.me/923014797805",
   email: "mailto:tahir.mehmood9425@gmail.com",
 };
 

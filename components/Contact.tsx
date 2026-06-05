@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import Reveal from "./Reveal";
 import { siteConfig, socials } from "@/lib/data";
 
@@ -114,6 +114,15 @@ export default function Contact() {
               className="text-gray-400 transition-colors hover:text-accent-light"
             >
               <FaLinkedin size={24} />
+            </a>
+            <a
+              href={socials.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+              className="text-gray-400 transition-colors hover:text-accent-light"
+            >
+              <FaWhatsapp size={24} />
             </a>
             <a
               href={socials.email}
