@@ -6,6 +6,7 @@ import {
   SiTailwindcss,
   SiExpo,
   SiFirebase,
+  SiNodedotjs,
   SiGit,
   SiHtml5,
   SiCss,
@@ -19,6 +20,7 @@ export const siteConfig = {
   name: "Tahir Mehmood",
   role: "React & React Native Developer",
   location: "Pakistan",
+  photo: "/profile.png",
   tagline:
     "I build fast, modern web apps with React & Next.js and cross-platform mobile apps with React Native.",
   about:
@@ -33,7 +35,7 @@ export const siteConfig = {
 // ---------------------------------------------------------------------------
 export const socials = {
   github: "https://github.com/TahirPK007",
-  linkedin: "https://linkedin.com/in/your-username",
+  linkedin: "https://www.linkedin.com/in/tahir-mehmood007/",
   email: "mailto:tahir.mehmood9425@gmail.com",
 };
 
@@ -65,6 +67,7 @@ export const skills: { category: string; items: Skill[] }[] = [
   {
     category: "Tools & Backend",
     items: [
+      { name: "Node.js", icon: SiNodedotjs, color: "#5FA04E" },
       { name: "Git", icon: SiGit, color: "#F05032" },
       { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
     ],
