@@ -100,14 +100,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Sample Web App",
+    title: "Atelier — E-Commerce Store",
     type: "web",
     description:
-      "A responsive web application built with Next.js and Tailwind CSS. Replace this with one of your real projects.",
-    tech: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    images: ["/projects/sample-web/screenshot1.svg"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/your-username/sample-web",
+      "A full-stack fashion store with product catalog, user auth, Stripe checkout (test mode), and a role-gated admin panel for managing products and orders. Built on Next.js 14 with Supabase (Postgres + Auth + RLS) and Stripe.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Stripe",
+      "Tailwind CSS",
+      "PostgreSQL",
+    ],
+    images: ["/projects/atelier/atelier.png"],
+    liveUrl: "https://ecommerce-store-atelierl.vercel.app",
+    githubUrl: "https://github.com/TahirPK007/ecommerce-store",
   },
   {
     title: "Sample Mobile App",
