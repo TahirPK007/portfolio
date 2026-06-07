@@ -117,12 +117,12 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/TahirPK007/ecommerce-store",
   },
   {
-    title: "Sample Mobile App",
+    title: "Atelier Mobile",
     type: "mobile",
     description:
-      "A cross-platform mobile app built with React Native and Expo. Replace this with one of your real projects.",
-    tech: ["React Native", "Expo", "JavaScript"],
-    images: ["/projects/sample-mobile/screenshot1.svg"],
-    githubUrl: "https://github.com/your-username/sample-mobile",
+      "A cross-platform ecommerce app for the Atelier store with product browsing, category filters, persistent cart, Supabase authentication, Stripe test-mode checkout, and order history.",
+    tech: ["React Native", "Expo", "TypeScript", "Supabase", "Stripe"],
+    images: ["/projects/atelier-mobile/screenshot1.svg"],
+    githubUrl: "https://github.com/TahirPK007/ecommerce-store-mobile",
   },
 ];
