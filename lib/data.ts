@@ -100,6 +100,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "BooklyPro — Appointment Booking SaaS",
+    type: "web",
+    description:
+      "A smart booking platform for service businesses with a public booking flow, owner dashboard (schedule, services, customers, settings), Firebase Auth + Firestore, working-hours and blocked-date scheduling, no-show risk scoring, and Gemini AI copy tools.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Firebase",
+      "Firestore",
+      "Gemini AI",
+      "Tailwind CSS",
+    ],
+    images: ["/projects/booklypro/booklypro.svg"],
+    liveUrl: "https://booklypro-teal.vercel.app",
+    githubUrl: "https://github.com/TahirPK007/booklypro",
+  },
+  {
     title: "Atelier — E-Commerce Store",
     type: "web",
     description:
