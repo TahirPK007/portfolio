@@ -40,9 +40,10 @@ function BrowserMockup({ src, alt }: { src: string; alt: string }) {
 
 function PhoneMockup({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className="flex justify-center border-b border-white/10 bg-gradient-to-b from-[#1a1a26] to-[#0d0d14] px-6 pt-8">
-      <div className="w-[180px] translate-y-2 rounded-t-[2rem] border-[6px] border-b-0 border-[#2a2a3a] bg-[#0d0d14] p-1.5 shadow-2xl">
-        <div className="relative aspect-[9/16] w-full overflow-hidden rounded-t-[1.5rem]">
+    <div className="relative aspect-[16/10] overflow-hidden border-b border-white/10 bg-[#0d0d14]">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_18%,rgba(99,102,241,0.22),transparent_42%)]" />
+      <div className="absolute left-1/2 top-1/2 w-[34%] min-w-[142px] max-w-[190px] -translate-x-1/2 -translate-y-1/2 rounded-[2rem] border-[6px] border-[#2a2a3a] bg-[#0d0d14] p-1.5 shadow-2xl">
+        <div className="relative aspect-[9/16] w-full overflow-hidden rounded-[1.45rem]">
           <Image
             src={src}
             alt={alt}
