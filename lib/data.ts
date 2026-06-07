@@ -112,7 +112,7 @@ export const projects: Project[] = [
       "Gemini AI",
       "Tailwind CSS",
     ],
-    images: ["/projects/booklypro/booklypro.svg"],
+    images: ["/projects/booklypro/booklypro.png"],
     liveUrl: "https://booklypro-teal.vercel.app",
     githubUrl: "https://github.com/TahirPK007/booklypro",
   },
