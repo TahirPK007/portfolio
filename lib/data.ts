@@ -113,7 +113,7 @@ export const projects: Project[] = [
       "Tailwind CSS",
     ],
     images: ["/projects/booklypro/booklypro.png"],
-    liveUrl: "https://booklypro-teal.vercel.app",
+    liveUrl: "https://booklypro-withai.vercel.app",
     githubUrl: "https://github.com/TahirPK007/booklypro",
   },
   {
