@@ -112,7 +112,7 @@ export const projects: Project[] = [
       "Supabase",
       "AsyncStorage",
     ],
-    images: ["/projects/quickbite/screenshot1.svg"],
+    images: ["/projects/quickbite/screenshot1.png"],
     githubUrl: "https://github.com/TahirPK007/QuickBite",
   },
   {
