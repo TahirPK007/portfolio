@@ -100,6 +100,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "QuickBite — Food Delivery App",
+    type: "mobile",
+    description:
+      "A full-featured food delivery app with restaurant discovery, search and category filters, persistent cart, Supabase auth and orders, live order tracking with map view, dark mode, favorites, saved addresses, and English/Urdu/Arabic localization.",
+    tech: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "Expo Router",
+      "Supabase",
+      "AsyncStorage",
+    ],
+    images: ["/projects/quickbite/screenshot1.svg"],
+    githubUrl: "https://github.com/TahirPK007/QuickBite",
+  },
+  {
     title: "BooklyPro — Appointment Booking SaaS",
     type: "web",
     description:
